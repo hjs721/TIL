@@ -1,4 +1,9 @@
+# 6010
+number = input()
+print(number, type(number))
 
-print('''문자열 안에 '작은 따옴표'나
-"큰 따옴표"를 사용할 수 있고
-여러 줄을 사용할 때도 편리하다.''')
+# 6015
+# input이 1 2 일때, numbers는 리스트이다.
+# ['1', '2']
+numbers = input().split()
+print(numbers)
