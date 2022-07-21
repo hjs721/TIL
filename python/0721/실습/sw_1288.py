@@ -26,11 +26,43 @@
 
 T = int(input())
 for test_case in range(1, T + 1):
-    N = int(input())
-    my_list = set() # 리스트 비워놓고
-    cnt = 0 # 초기값 0 고정
-    while len(my_list) < 10: # set 안 index가 0123456789 일때(set는 중복 출력 안함)
-        for i in str(N * (cnt + 1)): # Nx1부터 시작, nn자리라면 한자리만 맞아도
-            my_list.add(i) # i를 리스트에 추가
-        cnt += 1 # 0123456789 다돌때까지 무한반복
-    print(f"#{test_case} {N * cnt}")
+    pass
+    # input 가져오기
+    N =int(input())
+    # 기록지
+    N1 = N
+    numbers = set() # set에 계속 추가 예정
+    # while 반복 = > set 길이가 10이 될 때까지
+    while len(numbers) < 10: # 10이 딱 되면 False가 되면서 끝남
+        # 숫자를 문자로 for 반복
+        for n in str(N): # 1259 뜯어서 1, 2, 5, 9
+            numbers.add(n) # numbers set에 무지성 추가
+        print(N) # 계속 돌다가 길이 10 채우면 그때 N값
+        N += N1 # 출력값이 한단계 더 가버리면 프린트를 위로 올려버리면 됨
+
+        # 이렇게 하면 결과값
+        # 1295
+        # 1295
+        # 2590
+        # 3885
+        # 5180
+        # 6475
+        # 나머지 다 빼고 마지막 값만 출력해야 됨
+
+        # 따라서 while 문에 True를 주고 len(numebrs) < 10 이거는 브레이크로 사용해야 함 + 프린트 반복문 밖으로 빼서 한번만 출력
+
+
+# 정답
+ 
+T = int(input())
+for test_case in range(1, T + 1):
+    N =int(input())
+    N1 = N
+    numbers = set()
+    while True:
+        for n in str(N):
+            numbers.add(n)
+        if len(numbers) == 10:
+            break
+        N += N1
+    print(f'#{test_case} {N}')
