@@ -37,7 +37,7 @@ for test_case in range(1, T + 1):
         # 숫자를 문자로 for 반복
         for n in str(N): # 1259 뜯어서 1, 2, 5, 9
             numbers.add(n) # numbers set에 무지성 추가
-        print(N) # 계속 돌다가 길이 10 채우면 그때 N값
+        print(N) # 계속 돌다가 길이 10 채우면 그때 N값(을 뽑아야 되는데 얘는 반복문 안에 넣어서 그때까지 N값 다나옴)
         N += N1 # 출력값이 한단계 더 가버리면 프린트를 위로 올려버리면 됨
 
         # 이렇게 하면 결과값

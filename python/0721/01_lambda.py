@@ -9,7 +9,7 @@ numbers = [1, 2, 5, 10, 3, 9, 12]
 result = []
 for n in numbers:
     # if number % 3 == 0:
-        result.append(n*3)
+    result.append(n * 3)
 print(result)
 
 
@@ -21,7 +21,7 @@ def multiple_3(n):
 print(list(map(multiple_3, numbers)))
 
 # 이 함수는 계속 사용되지 않고, map에서만 사용된다.
-# 임시적인 함수를 만들고 싶다. => 람다
+# 한번말 쓸 임시적인 함수를 만들고 싶다. => 람다
 
 print(list(map(lambda n : n*3, numbers)))
 # input = n
