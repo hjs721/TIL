@@ -19,8 +19,8 @@
 # 17
 # 7
 
-while True:
+while True: # 순회가 아님. 있는대로 반복하다가 0,0일때 출력없이 종료되어야
     A, B = map(int, input().split())
-    if A == 0 and B == 0:
+    if A == 0 and B == 0: # A, B 둘다 0일 때 브레이크
         break
-    print(A + B)
+    print(A + B) # 반복문 안에서 프린트(돌면서 출력, 브레이크 걸려야 하므로)
