@@ -1,5 +1,6 @@
 from pprint import pprint
 
+# 정점 갯수, 간선 갯수
 n, m = map(int, input().split())
 
 # 행렬 초기화
