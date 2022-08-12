@@ -1,6 +1,19 @@
-A1 A2 5
-B
-L
-LB
+A8 B7 18
 RB
-LT
+RB
+RB
+RB
+RB
+RB
+RB
+RB
+RB
+RB
+RB
+RB
+RB
+RB
+RB
+RB
+RB
+RB
