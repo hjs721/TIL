@@ -1,5 +1,8 @@
 # Today I Learned📓🖊🖤
 
-- [마크다운](./마크다운/)
+- [마크다운](./Markdown/)
 - [Git/GitHub](./Git/)
-- [Python](./python/)
+- [Python](./Python/)
+- [Algorythm](./Algorythm/)
+- [Databse](./Databse/)
+

@@ -99,3 +99,4 @@ rowid  name  age  address
 5      홍길동   40   제주도
 
 SELECT rowid, name FROM classmates LIMIT 100;
+-- 100명 범위 아이디랑 이름 나옴

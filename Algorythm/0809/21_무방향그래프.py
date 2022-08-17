@@ -17,7 +17,5 @@ for _ in range(m):
     graph[v2][v1] = 1
     # 빈 리스트에도 같은 방법으로 실행
     graph2[v1].append(v2)
-    graph2[v2].append(v1)
-
 pprint(graph)
 print(graph2)
