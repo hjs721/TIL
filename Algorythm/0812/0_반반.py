@@ -13,3 +13,5 @@ for test_case in range(1, t + 1):
     else:
         # 아니면 No 출력
         print(f'#{test_case} No')
+
+# 좋은 풀이입니다! 좀 더 쉽게 접근하는 방법은 word의 문자에 대해 count()를 사용해 확인하는 방법도 있을 것 같네요!

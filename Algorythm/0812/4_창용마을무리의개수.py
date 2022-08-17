@@ -41,3 +41,36 @@ while len(stack) != 0:
         else:
             continue
         # 모르겠다...
+
+
+'''
+우선 코드는 tc를 도는 for 문안에 작성해 주셔야 합니다!
+29번째 줄부터 작성하신 dfs는 잘 작성해 주셨습니다. 풀이 방법에 대해 말씀드리자면 모든 주민들에 대해 for 문을 돌면서 visited가 체크되지 않았다면 이 주민을 시작으로 dfs를 진행해 서로 알고 있는 사람들을 체크해 주시면 됩니다.
+다른 튜터 분의 코드를 첨부해 드릴 테니 한번 읽어보시고 생각해 보시면 좋을 것 같습니다
+
+T = int(input())
+for test_case in range(1, T+1):
+    N, M = map(int,input().split())
+    adj_list = [[] for _ in range(N+1)]
+    for _ in range(M):
+        x, y = map(int,input().split())
+        adj_list[x].append(y)
+        adj_list[y].append(x)
+    
+    visited = [0]*(N+1)
+    answer = 0
+    for node in range(1, N+1):
+        if visited[node] != 0:
+            continue
+        stack = [node]
+        visited[node] = 1
+        answer += 1
+        while stack:
+            cur = stack.pop()
+            for nxt in adj_list[cur]:
+                if visited[nxt]==0:
+                    visited[nxt] = 1
+                    stack.append(nxt)
+    
+    print(f'#{test_case} {answer}')
+'''
