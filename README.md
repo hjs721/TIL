@@ -4,5 +4,4 @@
 - [Git/GitHub](./Git/)
 - [Python](./Python/)
 - [Algorythm](./Algorythm/)
-- [Databse](./Databse/)
-
+- [Databse](./Database/)

@@ -172,7 +172,7 @@ id     height  weight
 > 키는 미터 단위로 계산한다.
 
 ```sql
-SELECT COUNT(*) FROM healthcare WHERE weight / ((height * height) * 0.0001) > 30;
+SELECT COUNT(*) FROM healthcare WHERE weight / ((height * height) * 0.0001) >= 30;
 ```
 
 ```
