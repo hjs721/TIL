@@ -6,7 +6,7 @@
 2. [RDB](./0816/database.md/#rdb)
 3. [RDBMS](./0816/database.md/#rdbms)
 4. [SQL](./0816/database.md/#sql)
-5. [Hello World!](./0816/database.md/#hello-world!)
+5. [Hello World!](./0816/database.md/#hello-world)
 6. [CRUD](./0816/database.md/#crud)
    1. [CREATE](./0816/database.md/#create)
    2. [READ](./0816/database.md/#read)
