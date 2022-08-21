@@ -116,17 +116,17 @@ SELECT COUNT(*) AS '고객 수', Country AS '나라' FROM customers GROUP BY Cou
 4     Germany
 
 -- ### 11. 앨범(albums) 테이블에서 가장 많은 앨범이 있는 Artist의 `ArtistId`와 `앨범 수`를 출력하세요.
-SELECT ArtistId, max("앨범 수") AS "앨범 수" FROM (SELECT ArtistId, count(*) AS "앨범 수" FROM albums GROUP BY ArtistId); 
+SELECT ArtistId, MAX("앨범 수") AS "앨범 수" FROM (SELECT ArtistId, COUNT(*) AS "앨범 수" FROM albums GROUP BY ArtistId); 
 
 
 -- ### 12. 앨범(albums) 테이블에서 보유 앨범 수가 10개 이상인 Artist의 `ArtistId`와 `앨범 수` 출력하세요
 -- | 단, 앨범 수를 기준으로 내림차순으로 출력하세요.
-
+SELECT ArtistId, MAX("앨범 수") AS "앨범 수" FROM (SELECT ArtistId, COUNT(*) AS "앨범 수" FROM albums GROUP BY ArtistId HAVING "앨범 수" >= 10) ORDER BY "앨범 수" DESC; 
 
 
 -- ### 13. 고객(customers) 테이블에서 `State`가 존재하는 고객들을 `Country` 와 `State`를 기준으로 그룹화해서 각 그룹의 `고객 수`, `Country`, `State` 를 출력하세요.
 -- | 단, `고객 수`, `Country` 순서 기준으로 내림차순으로 5개까지 출력하세요.
-
+SELECT
 
 
 -- ### 14.  고객(customers) 테이블에서 `Fax` 가 `NULL`인 고객은 'X' NULL이 아닌 고객은 'O'로 `Fax 유/무` 컬럼에 표시하여 출력하세요.

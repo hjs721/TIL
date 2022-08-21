@@ -17,3 +17,5 @@
 11. [GROUP BY](./0818/기본%20함수와%20연산.md/#group-by)
 12. [ALTER TABLE](./0818/기본%20함수와%20연산.md/#alter-table)
 
+13. [CASE](./0819/CASE.md/)
+14. [서브 쿼리](./0819/CASE.md/#서브-쿼리)
