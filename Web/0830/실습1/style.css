@@ -1,0 +1,33 @@
+/* 아래에 CSS를 작성해주세요. */
+.title {
+  text-align: center;
+  margin: 1rem;
+  margin-top: 0px;
+}
+.font12 {
+  font-size: 12px;
+}
+.container {
+  width: 900px;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+.card {
+  display: inline-block;
+  width: 300px;
+  margin: 1rem;
+  text-align: center;
+}
+.card-image {
+  width: 100%;
+  border-radius: 1rem;
+}
+.card-text {
+  margin: 1rem;
+  margin-top: 8px;
+  text-align: left;
+  letter-spacing: -1px;
+}
+.font-bold {
+  font-weight: bold;
+}
