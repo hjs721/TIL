@@ -23,8 +23,7 @@
   border-radius: 1rem;
 }
 .card-text {
-  margin: 1rem;
-  margin-top: 8px;
+  margin: 8px;
   text-align: left;
   letter-spacing: -1px;
 }
