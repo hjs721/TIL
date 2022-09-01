@@ -1,0 +1,59 @@
+/* 아래에 CSS를 작성해주세요. */
+* {
+  box-sizing: border-box;
+}
+.title {
+  text-align: center;
+  margin: 1rem;
+  margin-top: 0px;
+}
+.font12 {
+  font-size: 12px;
+}
+.container {
+  display: flex;
+  width: 900px;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+.card {
+  justify-content: space-evenly;
+  margin: 1rem;
+  text-align: center;
+}
+.card-image {
+  width: 100%;
+  border-radius: 1rem;
+}
+.card-text {
+  margin: 8px;
+  text-align: left;
+  letter-spacing: -2px;
+  word-spacing: -1px;
+}
+.font-bold {
+  font-weight: bold;
+}
+.nav {
+  position: sticky;
+  display: flex;
+  height: 50px;
+  top: 0px;
+  padding: 10px;
+  background-color: lightgrey;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top-btn {
+  display: flex;
+  position: fixed;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  bottom: 1rem;
+  right: 1rem;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgrey;
+}
