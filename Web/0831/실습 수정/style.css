@@ -12,12 +12,11 @@
 }
 .container {
   display: flex;
+  justify-content: space-around;
   width: 900px;
-  margin-left: 2rem;
-  margin-right: 2rem;
+  margin: auto;
 }
 .card {
-  justify-content: space-evenly;
   margin: 1rem;
   text-align: center;
 }
