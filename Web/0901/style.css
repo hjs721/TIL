@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 10000px;
+    background-color: aqua;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    height: 50px;
+    align-items: center;
+    padding: 1rem;
+    background-color: white;
+}
+
+.nav-logo {
+    text-decoration: none;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    font-family: 'Nanum Gothic', sans-serif;
+    margin: 0;
+}
+
+.nav-link {
+    text-decoration: none;
+    padding: 1px 5px;
+}
+
+/* 자식, 자손 선택자 */
+/* nav > a {} */
+/* nav a {} */
+/* nav 안에 있는 a */
+
+.nav-link:visited {
+    color: black;
+}
+
+.nav-link:hover {
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    padding: 1px 5px;
+}
+
+.nav-item {
+    margin: 0 10px;
+}
