@@ -1,21 +1,10 @@
-# ✅ JavaScript INTRO
+# JavaScript
 
-> 1. JavaScript Intro
-> 2. History of JavaScript
-> 3. DOM(Document Object Model)
-> 4. DOM 조작
->
-> 💡 개발자도구 찍었을 때 consol 창에 뜨는 내용은 JavaScript 로 작성한 것!
->
-> 🗂️ [(참고서1)](https://developer.mozilla.org/ko/docs/Web/JavaScript) [(참고서2)](https://developer.mozilla.org/ko/docs/Learn/JavaScript)
+### 참고자료
 
-#### 📂 새로운 프로그래밍 언어를 학습하는 마음가짐
+- [(참고서1)](https://developer.mozilla.org/ko/docs/Web/JavaScript) [(참고서2)](https://developer.mozilla.org/ko/docs/Learn/JavaScript)
 
-```
-입사해서 새로운 언어를 공부한다고 해도 [변수, 데이터타입, 조건, 반복, 함수] 의 기본 구조는 동일하므로, 이에 따라 학습하면 금방 따라갈 수 있음!
-```
-
-#### 📂 JavaScript ES6+ 관련 교재
+- 교재
 
 ```
 아래로 내려갈수록 어려운 책(대략)
@@ -26,10 +15,6 @@
 「Node.js 디자인 패턴 바이블」
 ```
 
-| [시작](https://developer.mozilla.org/ko/docs/Learn/JavaScript/First_steps/What_is_JavaScript) | [문법과 자료형](https://developer.mozilla.org/ko/docs/Web/JavaScript/Guide/Grammar_and_types) | [제어문](https://developer.mozilla.org/ko/docs/Web/JavaScript/Guide/Control_flow_and_error_handling) | [반복](https://developer.mozilla.org/ko/docs/Web/JavaScript/Guide/Loops_and_iteration) | [함수](https://developer.mozilla.org/ko/docs/Web/JavaScript/Guide/Functions) | [표현식 연산자](https://developer.mozilla.org/ko/docs/Web/JavaScript/Guide/Expressions_and_Operators) |
-| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-|                                                              |                                                              |                                                              |                                                              |                                                              |                                                              |
-
 - 온라인 자료(ENG)
   - https://eloquentjavascript.net/
   - https://exploringjs.com/
@@ -39,7 +24,7 @@
 
 ------
 
-## 1. JavaScript Intro
+## 1. JavaScript
 
 - 브라우저(browser)
   - URL로 웹(WWW)을 탐색하며 서버와 통신하고, HTML 문서나 파일을 출력하는 GUI 기반 소프트웨어
