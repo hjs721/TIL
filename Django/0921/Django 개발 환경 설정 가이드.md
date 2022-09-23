@@ -28,7 +28,7 @@
 
 4.  **가상환경 실행**
 
-   - server 폴더에서 실행 : ```$ source server-venv/Scripts/activate```
+   - 프로젝트 폴더에서 실행 : ```$ source server-venv/Scripts/activate```
 
    - 가상환경 폴더로 내에서 실행 : ```$ cd server-venv``` 이후 ```$ source ./activate```
    - 가상환경 종료 : ```$ deactivate``` 
