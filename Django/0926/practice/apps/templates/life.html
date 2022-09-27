@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% block content %}
+<div>
+    <h1 class="my-5 text-center">당신의 전생을 알아봅시다!</h1>
+    <form action="/pre-life-result" method="get" class="d-flex justify-content-center">
+        <input type="text" name="name" class="mb-3 mx-3">
+        <input type="submit" value="GO!" class="btn btn-primary mb-3">
+    </form>
+</div>
+{% endblock content%}
