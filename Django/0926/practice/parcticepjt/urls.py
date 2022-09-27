@@ -23,4 +23,6 @@ urlpatterns = [
     path("calculator/<int:num1>/<int:num2>", views.calculator),
     path("pre-life/", views.life),
     path("pre-life-result/", views.life_result),
+    path("lorem/", views.lorem),
+    path("lorem-kor/", views.lorem_kor),
 ]

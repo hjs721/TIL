@@ -47,3 +47,20 @@ def life_result(request):
     result = random.choice(results)
     context = {"name": name, "result": result}
     return render(request, "life_result.html", context)
+
+
+def lorem(request):
+    return render(request, "lorem.html")
+
+
+def lorem_kor(request):
+    cnt_num1 = int(request.GET.get("num1"))
+    cnt_num2 = int(request.GET.get("num2"))
+    list_ = [[] for _ in range(cnt_num1)]
+    words = ["바나나", "짜장면", "사과", "포도", "딸기"]
+    for i in range(len(list_)):
+        while len(list_[i]) < cnt_num2:
+            word = random.choice(words)
+            list_[i].append(word)
+    context = {"lorems": list_}
+    return render(request, "lorem_kor.html", context)
