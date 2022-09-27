@@ -10,10 +10,63 @@
   <title>HPHK APPAREL</title>
 </head>
 <body>
- 
+  <nav class="navbar d-flex justify-content-between align-items-center sticky-top bg-white">
+    <h1 class="navbar-brand mx-3">APPAREL SHOP</h1>
+    <div class="navbar-nav d-flex flex-row">
+      <a href="index.html">
+        HOME
+      </a>
+      <a class="mx-3" href="product.html">
+        PRODUCTS
+      </a>
+    </div>
+  </nav>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+  <img class="banner" src="assets/apparel.jpeg" alt="">
+
+  <container>
+    <!-- 마진 적용이 안됨
+    CSS 사용하면 마진 적용 되는데 부트스트랩이 안먹음 -->
+    <about class="mx-15 my-6 d-flex justify-content-center align-items-center bg-white">
+      <!-- 여기는 마진 적용 됨 -->
+      <img class="about-img mx-3" src="assets/apparel2.jpeg" alt="">
+      <div class="mx-3 d-flex flex-column">
+        <h2 class="text-center fw-bold my-3">About</h2>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+      </p>
+      </div>
+    </about>
+  
+    <!-- 여기도 마진 적용 안됨... -->
+    <more class="mx-15 d-flex flex-column justify-content-center">
+      <h2 class="text-center fw-bold my-3">More</h2>
+      <div class="d-flex justify-content-around align-items-center">
+        <div class="d-flex flex-column align-items-center my-3">
+          <img class="more-img" src="assets/email.png" alt="">
+          <p class="text-center">Email Address<br>hphker@hphk.kr</p>
+        </div>
+        <div class="d-flex flex-column align-items-center">
+          <img class="more-img" src="assets/telephone.png" alt="">
+          <p class="text-center">Phone Number<br>010-1234-5678</p>
+        </div>
+        <div class="d-flex flex-column align-items-center">
+          <img class="more-img" src="assets/location.png" alt="">
+          <p class="text-center">Location<br>서울특별시</p>
+        </div>
+        <div class="d-flex flex-column align-items-center">
+          <img class="more-img" src="assets/clock.png" alt="">
+          <p class="text-center">Working Hours<br>9am~6pm</p>
+        </div>
+      </div>
+    </more>
+  </container>
+
+  <footer>
+    <a href="#"><img class="tbt" src="assets/up-arrow.png" alt=""></a>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
 </body>
 </html>

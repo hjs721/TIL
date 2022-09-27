@@ -7,18 +7,22 @@
     <title>Document</title>
 </head>
 <body>
-    <from action="">
-        <label for="username">username</label>
-        <input type="email" name="username" id="username" value="123@gmail.com">
-        <label for="password">password</label>
-        <input type="password" name="password" id="password">
+    <form action="">
+        <!-- required -->
+        username : <input type="text" name = "username" required>
         <input type="submit" value="얍">
         <br>
-        <label for="mincho">민초파</label>
-        <input type="radio" name="is_mincho" id="mincho" value="1">
-        <label for="notmincho">반민초파</label>
-        <input type="radio" name="is_mincho" id="notmincho" value="0">
+        <!-- disabled -->
+        name : <input type="text" name = "name" disabled>
+        <input type="submit" value="얍">
         <br>
-    </from>
+        <!-- autofocus -->
+        <!-- type="email" -->
+        id : <input type="email" name="id" autofocus>
+        <input type="submit" value="얍">
+        <br>
+        <!-- type="password" -->
+        password : <input type="password" name="password">
+    </form>
 </body>
 </html>

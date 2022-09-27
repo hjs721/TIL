@@ -5,3 +5,42 @@ body {
   min-width: 1280px;
   color: #333333;
 }
+
+.banner {
+  background-image: url(../assets/apparel.jpeg);
+  background-size: 100vw;
+  width: 1280px;
+  height: 700px;
+  object-fit: cover;
+  background-repeat: no-repeat;
+}
+
+.about {
+  margin: 1rem 5rem;
+}
+
+.about-img {
+  width: 500px;
+  border-radius: 20px;
+}
+
+.more-img {
+  width: 64px;
+  height: 64px;
+}
+
+.tbt {
+  width: 30px;
+  height: 30px;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+
+.cardline {
+  border: 1px solid black;
+}
+
+.card-img {
+  width: 300px;
+}
