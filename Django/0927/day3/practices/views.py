@@ -4,11 +4,11 @@ from django.shortcuts import render
 
 
 def index(request):
-    return render(request, "index.html")
+    return render(request, "practices/index.html")
 
 
 def ping(request):
-    return render(request, "ping.html")
+    return render(request, "practices/ping.html")
 
 
 def pong(request):
@@ -17,4 +17,4 @@ def pong(request):
     # print(request.Get.get('ball'))
     ball = request.GET.get("ball")
     context = {"name": ball}
-    return render(request, "pong.html", context)
+    return render(request, "practices/pong.html", context)
