@@ -6,4 +6,4 @@
 - [Algorythm](./Algorythm/)
 - [Databse](./Database/)
 
-- Django
+- [Django](./Django)
