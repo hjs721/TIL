@@ -1,0 +1,1 @@
+오후 줌 강의 : [Syllaverse](https://syllaverse.com/courses/1/s/13/curriculum/2022-07-27/contents/32/videos)
