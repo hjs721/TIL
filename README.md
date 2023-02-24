@@ -1,4 +1,4 @@
-# Today I Learned📓🖊🖤
+# Today I Learned🖊🖤
 
 - 부트캠프 :: KDT 1기
   - [마크다운](./Markdown/)
