@@ -7,6 +7,6 @@
   - [Algorythm](./Algorythm/)
   - [Databse](./Database/)
 
-  - Web
+  - Web 
    
   - [Django](./Django)
